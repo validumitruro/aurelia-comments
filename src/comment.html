@@ -1,0 +1,22 @@
+<template class="comment-card">
+	<!-- We use these filters to prettify our incoming data -->
+	<require from="./filters/date-formatter"></require>
+	<require from="./filters/html-formatter"></require>
+
+	<div class="row">
+		<div class="large-8 columns">
+			<span class="author">${item.author}</span>
+			<span class="message" innerhtml="${item.message | htmlFormatter}"></span>
+
+			<div class="metadata">
+				<span class="timestamp" if.bind="item.date"><i class="fa fa-clock-o"></i> Posted at ${item.date | dateFormatter}</span>
+				<span class="likes" if.bind="item.likes">| <i class="fa fa-thumbs-up"></i> ${item.likes} likes</span>
+			</div>
+		</div>
+
+		<div class="large-4 columns text-right">
+			<a href="#" click.trigger="like()" class="info button"><i class="fa fa-thumbs-up"></i></a>
+			<a href="#" click.trigger="remove()" class="alert button"><i class="fa fa-remove"></i></a>
+		</div>
+	</div>
+</template>

@@ -1,0 +1,12 @@
+<template class="comment-list">
+	<require from="./comment"></require>
+	<require from="./comment-add"></require>
+
+	<comment-add></comment-add>
+
+    <div class="comments">
+    	<comment repeat.for="comment of comments" item.bind="comment"></comment>
+    </div>
+
+	<content></content>
+</template>

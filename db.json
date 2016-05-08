@@ -1,0 +1,25 @@
+{
+  "comments": [
+    {
+      "author": "Vali Dumitru",
+      "message": "My first comment, simple enough.",
+      "date": "2016-05-08T10:38:47.046Z",
+      "id": 1,
+      "likes": 3
+    },
+    {
+      "author": "Vali Dumitru",
+      "message": "My yet another simple comment,\n\nBut with newlines this time!",
+      "date": "2016-05-08T10:39:02.450Z",
+      "id": 2,
+      "likes": 5
+    },
+    {
+      "author": "Someone Else",
+      "message": "A new comment, simple again, but no likes this time.",
+      "date": "2016-05-08T10:39:02.450Z",
+      "id": 3,
+      "likes": 0
+    }
+  ]
+}
