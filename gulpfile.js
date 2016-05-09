@@ -36,4 +36,4 @@ gulp.task('serve', function(done) {
   gulp.watch('styles/**/*.css').on('change', reload);
 });
 
-gulp.task('default', ['sass:watch', 'serve']);
+gulp.task('default', ['sass', 'sass:watch', 'serve']);
