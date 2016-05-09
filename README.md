@@ -3,6 +3,8 @@ A simple Aurelia demonstration of how to create a custom comment list. The comme
 
 The SCSS file(s) are built into regular CSS files by gulp (styles/*.scss). Moment.js is used as a dependency for the DateFormatterValueConverter.
 
+Uses Foundation for Sites (because who doesn't like it?) :-)
+
 # System Requirements
 This program requires node 5.x (currently using 5.11.0 myself).
 
