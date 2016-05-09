@@ -13,8 +13,7 @@ System.config({
   paths: {
     "*": "src/*",
     "github:*": "jspm_packages/github/*",
-    "npm:*": "jspm_packages/npm/*",
-    "bower:*": "bower_components/*"
+    "npm:*": "jspm_packages/npm/*"
   },
 
   map: {
@@ -27,6 +26,7 @@ System.config({
     "core-js": "npm:core-js@1.2.6",
     "font-awesome": "npm:font-awesome@4.6.1",
     "foundation-sites": "npm:foundation-sites@6.2.1",
+    "moment": "npm:moment@2.13.0",
     "github:jspm/nodelibs-assert@0.1.0": {
       "assert": "npm:assert@1.3.0"
     },

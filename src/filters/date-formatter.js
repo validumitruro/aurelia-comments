@@ -1,4 +1,4 @@
-import moment from '../../bower_components/moment/moment';
+import moment from 'moment';
 
 // Converts a date string to a human date for our UI
 export class DateFormatterValueConverter {
