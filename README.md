@@ -24,7 +24,7 @@ And to power everything up:
 
 ```
 json-server --watch db.json
-gulp
+gulp serve
 ```
 
 That's all. Enjoy!

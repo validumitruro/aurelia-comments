@@ -19,7 +19,14 @@
       "message": "A new comment, simple again, but no likes this time.",
       "date": "2016-05-08T10:39:02.450Z",
       "id": 3,
-      "likes": 0
+      "likes": 1
+    },
+    {
+      "author": "Well well!",
+      "message": "This is a new comment! (n0 likes!)",
+      "date": "2016-05-09T22:23:10.195Z",
+      "likes": 0,
+      "id": 4
     }
   ]
 }
