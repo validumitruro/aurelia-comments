@@ -10,9 +10,7 @@ This program requires node 5.x (currently using 5.11.0 myself).
 The dependencies can be installed as such (if you don't already have them):
 
 ```
-npm install -g gulp
-npm install -g jspm
-npm install -g json-server
+npm install -g gulp jspm json-server
 ```
 
 .then().run():
